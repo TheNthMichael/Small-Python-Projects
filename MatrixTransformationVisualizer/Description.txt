@@ -1,0 +1,4 @@
+This program visualizes the effects of a Matrix transformation being applied to a grid of vectors represented by dots
+
+It interpolates through the transformation by adding a step, defined by self.sign = (end - start) * 0.1, to the matrix,
+then applying the transformation.
