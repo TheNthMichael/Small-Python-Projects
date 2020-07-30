@@ -1,0 +1,7 @@
+We can find a 3rd order polynomial that passes through 4 points by setting up a system of equations where
+
+[y1 = a*x1**3 + b*x1**2 + c*x1 + d]
+[.................................]
+[y4 = a*x4**3 + b*x4**2 + c*x4 + d]
+
+and solving for {a,b,c,d} using linalg.solve from numpy
